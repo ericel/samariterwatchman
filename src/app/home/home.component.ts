@@ -3,7 +3,9 @@ import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'home',
-  template: `<h3>{{ message }}</h3>`
+  templateUrl: './home.html',
+  styleUrls: ['./home.css']
+  
 })
 export class HomeComponent implements OnInit {
   public message: string;
