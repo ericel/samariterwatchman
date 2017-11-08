@@ -34,3 +34,10 @@ html {
 .mat-menu-item {
   color: #fff !important;
 }
+.clearfix {
+  clear: both;
+}
+.content {
+  position: relative;
+  z-index: 9999;
+}

@@ -1,4 +1,39 @@
 .jumbotron{
-    background: #000000;
+    
     border-radius: 0 !important;
+   
+}
+.jumbotrone{ 
+    background: transparent;
+
+}
+/*.jumbotrone{
+    background: #bdd2eb8c; ;
+    border-radius: 0 !important;
+    height: 200px;
+}
+.jumbotrone:before {
+    content: '';
+	position: absolute;
+	top: 2em;
+	right: 0;
+	bottom: 30%;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+    opacity: .6;
+    z-index: 1px; 
+  }*/
+.guard-pic {
+    position: absolute;
+    top: -100px;
+    background: url('./../../assets/images/st_guard.png') no-repeat right center;;
+    height: 420px;
+    width: 100%;
+    background-size: cover;
+    border-right: 10px solid transparent;
+    background-position-y: -5px;
+    content:"";
+    position:absolute;
+    right:20px;
+    z-index: 9999;
 }
