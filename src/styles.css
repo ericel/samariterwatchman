@@ -25,3 +25,12 @@ html {
     }
     
 }
+
+.mat-menu-panel {
+  width: 500px !important;
+  background: #022b4b;
+  
+}
+.mat-menu-item {
+  color: #fff !important;
+}

@@ -1,0 +1,36 @@
+.fab-quick {
+    position: fixed;
+    right: 0px;
+    top: 20%;
+    background: #4d80dd;
+    width:  100px;
+    height: 100px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 2px;
+    box-shadow: 0 0 5px #001220;
+    text-align: center;
+    cursor: pointer;
+}
+.btm-indicator {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    background: #022b4b;
+    height: 30px;
+}
+.btm-indicator mat-icon {
+    color: #4d80dd;
+    font-size: 3em;
+    height: 100%;
+    margin-top: -5px;
+    margin-right: 20%;
+}
+.tel-24 {
+    width: 100%;
+    height: 70px;
+    background: url("./../assets/images/247.png") no-repeat 0 0;;
+    background-size: contain;
+    background-position: center center;
+}

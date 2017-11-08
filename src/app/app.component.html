@@ -22,9 +22,34 @@
     </div>
   </div>
   </nav>
+<div class="tel-side">
+  <div class="fab-quick" [matMenuTriggerFor]="menu" (mouseover)="openMenu()">
+    <div class="tel-24"></div>
+    <div class="btm-indicator"><mat-icon>keyboard_arrow_down</mat-icon></div>
+  </div>
+  <mat-menu #menu="matMenu" [overlapTrigger]="false" 
+  >
+  <div>
+    djdjdj
+  </div>
+    <button mat-menu-item>
+      <mat-icon>dialpad</mat-icon>
+      <span>Redial</span>
+    </button>
+    <button mat-menu-item disabled>
+      <mat-icon>voicemail</mat-icon>
+      <span>Check voicemail</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>notifications_off</mat-icon>
+      <span>Disable alerts</span>
+    </button>
+  </mat-menu>
+</div>
   <router-outlet></router-outlet>
   <footer class="footer">
       <div class="container">
         <span class="text-muted">Place sticky footer content here.</span>
       </div>
     </footer>
+  
