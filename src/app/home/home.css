@@ -27,7 +27,7 @@
     position: absolute;
     top: -100px;
     background: url('./../../assets/images/st_guard.png') no-repeat right center;;
-    height: 420px;
+    height: 440px;
     width: 100%;
     background-size: cover;
     border-right: 10px solid transparent;
@@ -36,4 +36,35 @@
     position:absolute;
     right:20px;
     z-index: 9999;
+}
+.more-info {
+    font-size: 1.6em;
+}
+@media screen and (max-width: 1199px){
+    .display-3 {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 992px)
+{
+  .display-3 {
+    font-size: 2em;;
+  }
+
+}
+@media screen and (max-width: 1109px)
+{
+  .display-3 {
+    font-size: 2em;;
+  }
+}
+@media screen and (max-width: 500px)
+{
+  .display-3 {
+    font-size: 1.5em;;
+  }
+
+  .more-info {
+    font-size: 1em;
+  }
 }

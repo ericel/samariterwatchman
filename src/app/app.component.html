@@ -17,11 +17,12 @@
         </li>
       </ul>
       <span class="navbar-text">
-        Navbar text with an inline element
+        Call Now
       </span>
     </div>
   </div>
   </nav>
+<div class="hidden-md-down">
 <div class="tel-side">
   <div class="fab-quick" [matMenuTriggerFor]="menu" (mouseover)="openMenu()">
     <div class="tel-24"></div>
@@ -45,6 +46,7 @@
       <span>Disable alerts</span>
     </button>
   </mat-menu>
+</div>
 </div>
   <router-outlet></router-outlet>
   <footer class="footer">
