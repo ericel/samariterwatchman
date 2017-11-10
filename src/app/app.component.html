@@ -22,17 +22,19 @@
     </div>
   </div>
   </nav>
-<div class="hidden-md-down">
-<div class="tel-side">
+<div class="hidden-md-down dis-menu">
+<div class="tel-side  text-center">
   <div class="fab-quick" [matMenuTriggerFor]="menu" (mouseover)="openMenu()">
     <div class="tel-24"></div>
     <div class="btm-indicator"><mat-icon>keyboard_arrow_down</mat-icon></div>
   </div>
   <mat-menu #menu="matMenu" [overlapTrigger]="false" 
   >
-  <div>
-    djdjdj
+  <div class="panel-header">
+     <div class="display-5 font-weight-bold text-center">Call to register now</div>
   </div>
+
+  <div class="display-5 font-weight-bold">1-877-342-2104</div>
     <button mat-menu-item>
       <mat-icon>dialpad</mat-icon>
       <span>Redial</span>
