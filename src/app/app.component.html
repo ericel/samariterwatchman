@@ -1,59 +1,73 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="/"><img src="./assets/images/logo.png" alt="Samariterwatchman"></a>
+    <a class="navbar-brand" href="/"><img src="./assets/images/logo_2.png" alt="Samariterwatchman"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" routerLink="/services">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Security</a>
+          <a class="nav-link" routerLink="/security">Security</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact">Contact Us</a>
         </li>
       </ul>
       <span class="navbar-text">
-        Call Now
+          <div color="primary" class="font-weight-bold arrove-text">Approved <img class="nig-image" src="./assets/images/nigeria.png"></div>
+          
       </span>
     </div>
   </div>
   </nav>
 <div class="hidden-md-down dis-menu">
-<div class="tel-side  text-center">
+<div class="tel-side">
   <div class="fab-quick" [matMenuTriggerFor]="menu" (mouseover)="openMenu()">
     <div class="tel-24"></div>
     <div class="btm-indicator"><mat-icon>keyboard_arrow_down</mat-icon></div>
   </div>
-  <mat-menu #menu="matMenu" [overlapTrigger]="false" 
+  <mat-menu #menu="matMenu" class="menu-resize" [overlapTrigger]="false" 
   >
   <div class="panel-header">
-     <div class="display-5 font-weight-bold text-center">Call to register now</div>
+     <div class="font-weight-bold text-center">Get Support 24/7</div>
   </div>
-
-  <div class="display-5 font-weight-bold">1-877-342-2104</div>
-    <button mat-menu-item>
-      <mat-icon>dialpad</mat-icon>
-      <span>Redial</span>
-    </button>
-    <button mat-menu-item disabled>
-      <mat-icon>voicemail</mat-icon>
-      <span>Check voicemail</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>notifications_off</mat-icon>
-      <span>Disable alerts</span>
-    </button>
+  <div class="call-box">
+      <div class="text-center">Call now to inquire</div>
+        <div class="display-5 font-weight-bold   text-center"><mat-icon>phone</mat-icon> 1-877-342-2104</div>
+        <div class="display-6 font-weight-bold   text-center"><mat-icon>email</mat-icon> emailme@Samariter.com</div>
+        <p class="text-center pa-text">We are available at all times to answer your questions.</p>
+   </div>
   </mat-menu>
 </div>
 </div>
   <router-outlet></router-outlet>
+  
   <footer class="footer">
+    <div class="foot-1">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <div class="text-muted">
+            <div id="call" class="display-5 font-weight-bold"><mat-icon>phone</mat-icon> <span>1-877-342-2104</span> <span class="float-right"> Available 24/7</span></div>
+            <div class="clearfix"></div>
+        </div>
+       </div>
+      </div>
+       <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span class="copyright">&copy; Samariterwatchman 2017</span>
+          </div>
+          <div class="col-md-6">
+              <div class="display-6 font-weight-bold email"><mat-icon>email</mat-icon> emailme@Samariter.com</div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
       </div>
     </footer>
+   <!-- FOOTER -->
   

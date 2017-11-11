@@ -1,22 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Satisfy');
 /* Sticky footer styles
 -------------------------------------------------- */
+a, a:hover, a:active{
+  text-decoration: none;
+}
 html {
     position: relative;
     min-height: 100%;
   }
   body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    margin-bottom: 200px;
   }
   .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 60px;
+    height: 200px;
     line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
+    background-color: #404346;
   }
+  .footer .email{
+    color: #c7cace;
+  }
+@media screen and (max-width: 500px){
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 250px;
+  }
+  .footer {
+    /* Set the fixed height of the footer here */
+    height: 250px;
+
+  }
+}
+.foot-1{
+  background: #c7cace36;
+}
+.copyright {
+  color: #adadad;
+}
   
 @media screen and (min-width: 993px){
     
@@ -26,9 +50,9 @@ html {
     
 }
 
-.mat-menu-panel {
-  width: 500px !important;
-  
+.menu-resize {
+  min-width: 340px !important;
+  max-width: 370px !important;
   
 }
 .mat-menu-item {
@@ -46,4 +70,20 @@ html {
   .hidden-md-down {
     display: none;
   }
+}
+.arrove-text {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-style: italic;
+  color: #a7931e;
+  font-size: 2em;
+}
+.security-1 {
+  
+  font-family: 'Libre Barcode 39 Text', cursive;
+  color: #49465b;
+
+}
+.content {
+  position: relative;
+  z-index: 9;
 }

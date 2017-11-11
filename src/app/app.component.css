@@ -24,6 +24,7 @@
     text-align: center;
     background: #022b4b;
     background: #2f9c29;
+    background: #006064;
     height: 30px;
 }
 .btm-indicator mat-icon {
@@ -46,9 +47,29 @@
 }
 .panel-header {
     background: #2f9c29;
+    background: #006064;
     margin-top: -10px;
     box-shadow: 0 0 5px #002005;
     margin-bottom: 15px;
     padding: 10px;
     color: #fff;
+    font-size: 1.5em;
+}
+.display-5 {
+    font-size: 2em;
+}
+.display-6 {
+    font-size: 1.5em;
+}
+.call-box {
+    padding: 0 3px;
+}
+.pa-text{
+    padding: 10px 0;
+    font-style: italic;
+    color: #333;
+}
+.nig-image {
+    height: 30px;
+    width: 30px;
 }

@@ -17,6 +17,9 @@ import { HomeComponent } from './home/home.component';
     SkinModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full'},
+      { path: 'contact', loadChildren: './contact/contact.module#ContactModule'},
+      { path: 'security', loadChildren: './security/security.module#SecurityModule'},
+      { path: 'services', loadChildren: './services/services.module#ServicesModule'},
       { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule'},
       { path: 'lazy/nested', loadChildren: './lazy/lazy.module#LazyModule'}
     ])
